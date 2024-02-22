@@ -9,6 +9,14 @@ Before you begin, ensure you have the following:
 
 2. **AWS Credentials:**
    - Configure your AWS account credentials on your machine.
+     
+3. **SSH Key Pair:**
+   - Generate an SSH key pair using the following command:
+     ```bash
+     ssh-keygen -t rsa -b 2048 -f adityakeypair.pem
+     ```
+     This will generate `adityakeypair.pem` (private key) and `adityakeypair.pem.pub` (public key). The public key will be used in the keypair configuration.
+
 
 ## Configuration Explanation
 
